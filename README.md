@@ -6,3 +6,4 @@ This is the Android project for the DDApp
 - [Dominika Lazarowicz](https://github.com/ldidil)
 - [Konrad Kurzydym](https://github.com/konradkurzydym)
 - [Jarosław Foder](https://github.com/jfoder)
+- [Aleksander Profic](https://github.com/Aleksanderprofic)
