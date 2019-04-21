@@ -7,4 +7,5 @@ This is the Android project for the DDApp
 - [Konrad Kurzydym](https://github.com/konradkurzydym)
 - [Anna Sarnavska](https://github.com/sarnavskaa)
 - [Jarosław Foder](https://github.com/jfoder)
+- [Aleksander Profic](https://github.com/Aleksanderprofic)
 - [Paweł Kopel](https://github.com/PKopel)
