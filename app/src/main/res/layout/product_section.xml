@@ -44,15 +44,96 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card_title"
+        app:layout_constraintHeight_max="240dp"
+        app:layout_constrainedHeight="true"
+
         card_view:cardCornerRadius="4dp">
 
         <ImageView
             android:id="@+id/image"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/ic_launcher_background"
-            android:contentDescription="@string/zdjecie" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/zdjecie"
+            android:src="@drawable/DEBUG_tomatoes" />
     </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/stars_margin"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_image">
+
+        <ImageView
+            android:id="@+id/star0"
+            android:layout_width="@dimen/star_size"
+            android:layout_height="@dimen/star_size"
+            android:layout_marginLeft="@dimen/star_margin"
+            android:layout_marginRight="@dimen/star_margin"
+            android:contentDescription="@string/star_full"
+            android:src="@drawable/star_full"
+            android:tint="@color/mainOrange" />
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="@dimen/star_size"
+            android:layout_height="@dimen/star_size"
+            android:layout_marginLeft="@dimen/star_margin"
+            android:layout_marginRight="@dimen/star_margin"
+            android:contentDescription="@string/star_full"
+            android:src="@drawable/star_full"
+            android:tint="@color/mainOrange" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="@dimen/star_size"
+            android:layout_height="@dimen/star_size"
+            android:layout_marginLeft="@dimen/star_margin"
+            android:layout_marginRight="@dimen/star_margin"
+            android:contentDescription="@string/star"
+            android:src="@drawable/star"
+            android:tint="@color/mainOrange" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="@dimen/star_size"
+            android:layout_height="@dimen/star_size"
+            android:layout_marginLeft="@dimen/star_margin"
+            android:layout_marginRight="@dimen/star_margin"
+            android:contentDescription="@string/star"
+            android:src="@drawable/star"
+            android:tint="@color/mainOrange" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="@dimen/star_size"
+            android:layout_height="@dimen/star_size"
+            android:layout_marginLeft="@dimen/star_margin"
+            android:layout_marginRight="@dimen/star_margin"
+            android:contentDescription="@string/star"
+            android:src="@drawable/star"
+            android:tint="@color/mainOrange" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/desc_padding_horizontal"
+        android:paddingTop="@dimen/desc_padding_vertical"
+        android:paddingRight="@dimen/desc_padding_horizontal"
+        android:paddingBottom="@dimen/desc_padding_vertical"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        android:textSize="@dimen/text_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 
 </android.support.constraint.ConstraintLayout>
