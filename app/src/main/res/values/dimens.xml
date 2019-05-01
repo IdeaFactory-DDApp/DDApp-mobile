@@ -8,6 +8,17 @@
 
     <dimen name="title_padding_vertical">20dp</dimen>
     <dimen name="title_padding_horizontal">28dp</dimen>
+
     <dimen name="card_margin">16dp</dimen>
+
+    <dimen name="stars_margin">20dp</dimen>
+
+    <dimen name="star_size">60dp</dimen>
+    <dimen name="star_margin">4dp</dimen>
+
+    <dimen name="desc_padding_vertical">16dp</dimen>
+    <dimen name="desc_padding_horizontal">24dp</dimen>
+
     <dimen name="text_title">32sp</dimen>
+    <dimen name="text_desc">18sp</dimen>
 </resources>
