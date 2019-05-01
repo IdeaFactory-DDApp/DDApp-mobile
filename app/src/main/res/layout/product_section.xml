@@ -33,6 +33,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -56,6 +57,7 @@
             android:adjustViewBounds="true"
             android:contentDescription="@string/image"
             android:src="@drawable/DEBUG_tomatoes" />
+
     </android.support.v7.widget.CardView>
 
     <LinearLayout
@@ -118,6 +120,7 @@
             android:contentDescription="@string/star"
             android:src="@drawable/star"
             android:tint="@color/mainOrange" />
+
     </LinearLayout>
 
     <TextView
@@ -134,6 +137,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
 
 </android.support.constraint.ConstraintLayout>
