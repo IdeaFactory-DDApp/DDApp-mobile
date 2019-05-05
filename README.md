@@ -10,3 +10,4 @@ This is the Android project for the DDApp
 - [Aleksander Profic](https://github.com/Aleksanderprofic)
 - [Olgierd Królik](https://github.com/olliekrk)
 - [Paweł Kopel](https://github.com/PKopel)
+- [Grzegorz Sroka](https://github.com/sgrzegorz)
