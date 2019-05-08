@@ -34,17 +34,17 @@
 
         <Button
             android:id="@+id/products_button"
-            style="@style/MainButton"
+            style="@style/SimpleButton"
             android:text="@string/products_button" />
 
         <Button
             android:id="@+id/recipes_button"
-            style="@style/MainButton"
+            style="@style/SimpleButton"
             android:text="@string/recipes_button" />
 
         <Button
             android:id="@+id/database_button"
-            style="@style/MainButton"
+            style="@style/SimpleButton"
             android:text="@string/database_button" />
 
     </LinearLayout>

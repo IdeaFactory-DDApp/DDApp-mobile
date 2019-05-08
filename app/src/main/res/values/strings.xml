@@ -11,4 +11,7 @@
     <string name="recipes_button">Przepisy</string>
     <string name="database_button">Baza wiedzy</string>
     <string name="logo">Logo of DDApp</string>
+    <!--REDIRECT ACTIVITY-->
+    <string name="redirectMessage">This feature is not yet implemented.</string>
+    <string name="backMessage">Return</string>
 </resources>
