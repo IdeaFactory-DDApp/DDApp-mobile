@@ -6,4 +6,9 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <!--CONTENT MAIN-->
+    <string name="products_button">Produkty</string>
+    <string name="recipes_button">Przepisy</string>
+    <string name="database_button">Baza wiedzy</string>
+    <string name="logo">Logo of DDApp</string>
 </resources>
