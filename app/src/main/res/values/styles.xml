@@ -17,4 +17,13 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="SimpleButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/main_button_margin</item>
+        <item name="android:minWidth">@dimen/main_button_min_width</item>
+        <item name="android:minHeight">@dimen/main_button_min_height</item>
+        <item name="android:background">@color/buttonBackground</item>
+    </style>
+
 </resources>

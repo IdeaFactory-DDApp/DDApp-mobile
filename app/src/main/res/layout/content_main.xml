@@ -4,17 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainBackground"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
+    <ImageView
+        android:id="@+id/logo_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo"
+        android:scaleType="fitCenter"
+        android:maxWidth="@dimen/logoMaxWidth"
+        android:src="@drawable/kidney"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_vertical_margin"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/logo_image"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/products_button"
+            style="@style/SimpleButton"
+            android:text="@string/products_button" />
+
+        <Button
+            android:id="@+id/recipes_button"
+            style="@style/SimpleButton"
+            android:text="@string/recipes_button" />
+
+        <Button
+            android:id="@+id/database_button"
+            style="@style/SimpleButton"
+            android:text="@string/database_button" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
