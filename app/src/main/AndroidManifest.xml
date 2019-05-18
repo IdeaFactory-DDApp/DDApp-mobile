@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DatabaseActivity"></activity>
+        <activity
+            android:name=".KnowledgeActivity"
+            android:label="@string/title_activity_knowledge"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".DatabaseActivity" />
         <activity android:name=".KnowledgeBase" />
         <activity android:name=".RedirectActivity" />
         <activity
