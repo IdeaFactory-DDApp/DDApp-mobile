@@ -16,6 +16,8 @@ import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -37,7 +39,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
 
         database_button.setOnClickListener {
-            Toast.makeText(this, "Not implemented yet: Database", Toast.LENGTH_SHORT).show()
+            startDatabaseActivity()
         }
 
         val toggle = ActionBarDrawerToggle(
@@ -102,5 +104,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     fun startRedirectActivity() {
         startActivity(Intent(this, RedirectActivity::class.java))
+    }
+
+    fun startDatabaseActivity() {
+        startActivity(Intent(this, DatabaseActivity::class.java))
     }
 }
