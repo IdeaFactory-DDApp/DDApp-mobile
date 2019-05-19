@@ -26,7 +26,7 @@ class KnowledgeActivity : AppCompatActivity() {
 
 
 
-        val informationArray = getResources().getStringArray(R.array.themeList)
+        val informationArray = getResources().getStringArray(R.array.information_array)
         for (value in informationArray) {
             Log.i ("value", value.toString())
         }
@@ -34,6 +34,7 @@ class KnowledgeActivity : AppCompatActivity() {
 
 
         val textView: TextView = findViewById(R.id.information_view) as TextView
+        textView.text = "kasia"
         textView.setOnClickListener {
 
             textView.text = informationArray[currentInformationIndex]
