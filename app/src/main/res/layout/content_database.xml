@@ -6,32 +6,38 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".DatabaseActivity"
-    tools:showIn="@layout/activity_knowledge">
+    tools:showIn="@layout/activity_database">
 
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="329dp"
-        android:layout_height="101dp"
+        android:layout_width="327dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/database_remember" />
 
     <TextView
         android:id="@+id/information_view"
-        android:layout_width="357dp"
-        android:layout_height="415dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
+        android:layout_width="323dp"
+        android:layout_height="423dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
         android:layout_marginTop="8dp"
-        android:text="Informatifnmsiof"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="80dp"
+        android:text="Place for Information"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.159" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
 </android.support.constraint.ConstraintLayout>

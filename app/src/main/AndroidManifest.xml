@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".DatabaseActivity"
-            android:label="@string/title_activity_knowledge"
+            android:label="@string/title_activity_database"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".RedirectActivity" />
         <activity

@@ -3,11 +3,9 @@ package ideafactory.bit.agh.ddapp
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log
-import android.widget.ArrayAdapter
 import android.widget.TextView
 
-import kotlinx.android.synthetic.main.activity_knowledge.*
+import kotlinx.android.synthetic.main.activity_database.*
 import java.util.*
 
 class DatabaseActivity : AppCompatActivity() {
@@ -17,7 +15,7 @@ class DatabaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_knowledge)
+        setContentView(R.layout.activity_database)
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
