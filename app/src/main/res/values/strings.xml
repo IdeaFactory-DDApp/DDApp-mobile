@@ -14,7 +14,6 @@
     <!--REDIRECT ACTIVITY-->
     <string name="redirectMessage">This feature is not yet implemented.</string>
     <string name="backMessage">Return</string>
-
     <!--DATABASE ACTIVITY-->
     <string name="title_activity_database">Baza Wiedzy</string>
     <string-array name="information_array">
@@ -23,13 +22,6 @@
         <item>Potrawy przyprawiaj sokiem z cytryny, kwaskiem cytrynowym, zieloną pietruszką, zielonym koperkiem, majerankiem, kolendrą, tymiankiem, melisą, miętą, cynamonem, wanilią. Unikaj wegety, pieprz czarnego, ocyu, musztardy.</item>
         <item>Wszystkie posiłki przyrządzaj bez dodatku soli, a dozwoloną jej ilość spożywaj osobno.</item>
     </string-array>
-    <string name="title_activity_database1">DatabaseActivity1</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
 
 </resources>
