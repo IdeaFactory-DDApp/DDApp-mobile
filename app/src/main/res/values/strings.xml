@@ -19,5 +19,11 @@
     <string name="information_button">Zapamiętaj zawartość potasu w warzywach można zmniejszyć poprzez odpowiednią obróbkę. Warzywa należy namoczyć w dużej ilości wody przez kilkadziesiąt minut, przed gotowaniem odlać wodę w której były moczone, kilkakrotnie przepłukać, zalać na nowo i gotować do miękkości</string>
     <string name="title_activity_knowledge">KnowledgeActivity</string>
 
+    <string-array name="themeList">
+        <item>white</item>
+        <item>sepia</item>
+        <item>black</item>
+        <item>pink</item>
+    </string-array>
 
 </resources>

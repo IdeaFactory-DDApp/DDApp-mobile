@@ -3,11 +3,16 @@ package ideafactory.bit.agh.ddapp
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log
+import android.widget.ArrayAdapter
 import android.widget.TextView
 
 import kotlinx.android.synthetic.main.activity_knowledge.*
 
 class KnowledgeActivity : AppCompatActivity() {
+
+
+    var currentInformationIndex =1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,10 +24,20 @@ class KnowledgeActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-        var name : String = "ola ma psa"
+
+
+        val informationArray = getResources().getStringArray(R.array.themeList)
+        for (value in informationArray) {
+            Log.i ("value", value.toString())
+        }
+
+
+
         val textView: TextView = findViewById(R.id.information_view) as TextView
         textView.setOnClickListener {
-            textView.text = "ola"
+
+            textView.text = informationArray[currentInformationIndex]
+            currentInformationIndex=(currentInformationIndex+1)%informationArray.size
         }
     }
 
