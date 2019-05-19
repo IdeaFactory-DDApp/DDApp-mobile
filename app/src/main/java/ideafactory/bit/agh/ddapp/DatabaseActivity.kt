@@ -38,6 +38,7 @@ class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
         navView.setNavigationItemSelectedListener(this)
 
+
         val informationArray = getResources().getStringArray(R.array.information_array)
 
         val textView: TextView = findViewById(R.id.information_view) as TextView
@@ -79,7 +80,7 @@ class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_home -> {
+            R.id.nav_camera -> {
                 // Handle the camera action
             }
             R.id.nav_gallery -> {
@@ -88,7 +89,7 @@ class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
             R.id.nav_slideshow -> {
 
             }
-            R.id.nav_tools -> {
+            R.id.nav_manage -> {
 
             }
             R.id.nav_share -> {
