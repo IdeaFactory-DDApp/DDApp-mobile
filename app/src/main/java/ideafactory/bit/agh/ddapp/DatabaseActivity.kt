@@ -16,7 +16,7 @@ import java.util.*
 
 class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-    var currentInformationIndex =1
+    var currentInformationIndex = 1 //indexes of information which will be displaied in TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +39,13 @@ class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         navView.setNavigationItemSelectedListener(this)
 
 
+        manageInformationView();
+    }
+
+    // function responsible for changing information i knowledge database
+    // display random information from array in /values/stirings.xml
+    // on every click on TextView display succeeding information
+    fun manageInformationView(){
         val informationArray = getResources().getStringArray(R.array.information_array)
 
         val textView: TextView = findViewById(R.id.information_view) as TextView
