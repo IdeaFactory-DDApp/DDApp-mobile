@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".KnowledgeActivity"
+    tools:context=".DatabaseActivity"
     tools:showIn="@layout/activity_knowledge">
 
 
@@ -27,7 +27,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:layout_marginTop="8dp"
-        android:text="@string/information_array"
+        android:text="Informatifnmsiof"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"

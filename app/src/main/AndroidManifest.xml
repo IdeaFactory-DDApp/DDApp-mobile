@@ -10,11 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".KnowledgeActivity"
+            android:name=".DatabaseActivity"
             android:label="@string/title_activity_knowledge"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".DatabaseActivity" />
-        <activity android:name=".KnowledgeBase" />
         <activity android:name=".RedirectActivity" />
         <activity
             android:name=".MainActivity"

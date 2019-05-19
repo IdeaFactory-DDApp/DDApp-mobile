@@ -17,13 +17,13 @@
 
     <!--DATABASE ACTIVITY-->
     <string name="information_button">Zapamiętaj zawartość potasu w warzywach można zmniejszyć poprzez odpowiednią obróbkę. Warzywa należy namoczyć w dużej ilości wody przez kilkadziesiąt minut, przed gotowaniem odlać wodę w której były moczone, kilkakrotnie przepłukać, zalać na nowo i gotować do miękkości</string>
-    <string name="title_activity_knowledge">KnowledgeActivity</string>
+    <string name="title_activity_knowledge">Baza Wiedzy</string>
 
     <string-array name="information_array">
-        <item>white</item>
-        <item>sepia</item>
-        <item>black</item>
-        <item>pink</item>
+        <item>Zawartość potasu w warzywach można zmniejszyć poprzez odpowiednią obróbkę. Warzywa należy namoczyć w dużej ilości wody przez kilkadziesiąt minut, przed gotowaniem odlać wodę w której były moczone, kilkakrotnie przepłukać, zalać na nowo i gotować do miękkości</item>
+        <item>Jedz regularnie. Posiłki spożywaj 4 - 5 razy dziennie co 3 godz. aby nie dopuścić do uczucia głodu. Posiłki, które jesz powinny być małe objętościowo. Potrawy nie powinny być zbyt gorace ani zbyt zimne. </item>
+        <item>Potrawy przyprawiaj sokiem z cytryny, kwaskiem cytrynowym, zieloną pietruszką, zielonym koperkiem, majerankiem, kolendrą, tymiankiem, melisą, miętą, cynamonem, wanilią. Unikaj wegety, pieprz czarnego, ocyu, musztardy.</item>
+        <item>Wszystkie posiłki przyrządzaj bez dodatku soli, a dozwoloną jej ilość spożywaj osobno.</item>
     </string-array>
 
 </resources>

@@ -107,6 +107,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     fun startDatabaseActivity() {
-        startActivity(Intent(this, KnowledgeActivity::class.java))
+        startActivity(Intent(this, DatabaseActivity::class.java))
     }
 }
