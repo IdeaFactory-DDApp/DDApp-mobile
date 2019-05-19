@@ -12,7 +12,7 @@
         <activity
             android:name=".DatabaseActivity"
             android:label="@string/title_activity_database"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RedirectActivity" />
         <activity
             android:name=".MainActivity"
