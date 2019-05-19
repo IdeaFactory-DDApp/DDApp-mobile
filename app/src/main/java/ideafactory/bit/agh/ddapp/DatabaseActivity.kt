@@ -16,7 +16,7 @@ import java.util.*
 
 class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-    var currentInformationIndex = 1 //indexes of information which will be displaied in TextView
+    var currentInformationIndex = 1 //index of information which will be displaied, on each mouse click it is increased
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,9 +42,9 @@ class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         manageInformationView();
     }
 
-    // function responsible for changing information i knowledge database
+    // function responsible for changing information in knowledge database
     // display random information from array in /values/stirings.xml
-    // on every click on TextView display succeeding information
+    // on every click on TextView display next information
     fun manageInformationView(){
         val informationArray = getResources().getStringArray(R.array.information_array)
 
@@ -70,7 +70,7 @@ class DatabaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.database_activity1, menu)
+        menuInflater.inflate(R.menu.main, menu)
         return true
     }
 
