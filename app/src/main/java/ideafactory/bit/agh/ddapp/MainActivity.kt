@@ -1,17 +1,22 @@
 package ideafactory.bit.agh.ddapp
 
+import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
+import android.support.design.widget.Snackbar
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
+import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,8 +28,23 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     .setAction("Action", null).show()
         }
 
+        // main menu buttons listeners
+
+        products_button.setOnClickListener {
+            startRedirectActivity()
+        }
+
+        recipes_button.setOnClickListener {
+            Toast.makeText(this, "Not implemented yet: Recipes", Toast.LENGTH_SHORT).show()
+        }
+
+        database_button.setOnClickListener {
+            startDatabaseActivity()
+        }
+
         val toggle = ActionBarDrawerToggle(
                 this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
 
@@ -80,5 +100,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
+    }
+
+    fun startRedirectActivity() {
+        startActivity(Intent(this, RedirectActivity::class.java))
+    }
+
+    fun startDatabaseActivity() {
+        startActivity(Intent(this, DatabaseActivity::class.java))
     }
 }
