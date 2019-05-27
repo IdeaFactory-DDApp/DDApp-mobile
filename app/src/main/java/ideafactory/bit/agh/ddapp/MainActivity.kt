@@ -1,5 +1,6 @@
 package ideafactory.bit.agh.ddapp
 
+import android.app.Fragment
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -58,17 +59,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
+            R.id.nav_products -> {
+                title = "Produkty"
+                supportFragmentManager.beginTransaction().replace(R.id.main_fragment, ProductsFragment()).commit()
             }
-            R.id.nav_gallery -> {
-
+            R.id.nav_recipes -> {
+                title = "Przepisy"
+                supportFragmentManager.beginTransaction().replace(R.id.main_fragment, RecipesFragment()).commit()
             }
-            R.id.nav_slideshow -> {
-
-            }
-            R.id.nav_manage -> {
-
+            R.id.nav_knowledge_base -> {
+                title = "Baza wiedzy"
+                supportFragmentManager.beginTransaction().replace(R.id.main_fragment, KnowledgeBaseFragment()).commit()
             }
             R.id.nav_share -> {
 
