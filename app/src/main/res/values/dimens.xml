@@ -13,7 +13,7 @@
 
     <dimen name="stars_margin">20dp</dimen>
 
-    <dimen name="star_size">60dp</dimen>
+    <dimen name="star_size">50dp</dimen>
     <dimen name="star_margin">4dp</dimen>
 
     <dimen name="desc_padding_vertical">16dp</dimen>

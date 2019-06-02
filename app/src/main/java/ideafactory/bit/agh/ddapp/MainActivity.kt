@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
-            supportFragmentManager.beginTransaction().replace(R.id.DEBUG_REMOVE_content, ProductFragment()).commit()
-            //TODO: remove this transaction - here it's only for showcase purposes
         }
 
         val toggle = ActionBarDrawerToggle(

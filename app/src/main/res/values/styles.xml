@@ -25,4 +25,11 @@
         <item name="android:tint">@color/mainOrange</item>
     </style>
 
+    <style name="Card">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+    </style>
+
 </resources>
