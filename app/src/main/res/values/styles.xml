@@ -17,19 +17,4 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="Star">
-        <item name="android:layout_width">@dimen/star_size</item>
-        <item name="android:layout_height">@dimen/star_size</item>
-        <item name="android:layout_marginLeft">@dimen/star_margin</item>
-        <item name="android:layout_marginRight">@dimen/star_margin</item>
-        <item name="android:tint">@color/mainOrange</item>
-    </style>
-
-    <style name="Card">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:layout_margin">@dimen/card_margin</item>
-    </style>
-
 </resources>
